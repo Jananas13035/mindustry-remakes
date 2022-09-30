@@ -7,7 +7,7 @@
   "requirements": [
     { "item": "lead", "amount": 70},
 	{ "item": "titanium", "amount": 50},
-        { "item": "blast-compund", "amount": 50},
+        { "item": "blast-compound", "amount": 50},
   ],
   "research": "blast-mixer",
   "hasPower": true,
