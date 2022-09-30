@@ -1,0 +1,42 @@
+{
+ "name": "Tank factory I level",
+ "description": "Build tanks I level, example T-10, but they are very weak and for I level tank this is good",
+ "type": "UnitFactory",
+ "health": 60,
+ "size": 3,
+ "alwaysUnlocked": true,
+ "requirements": [
+		{ "item": "silicon", "amount": 20},
+	    {"item": "lead", "amount":30},
+			{"item": "thorium", "amount":20}
+   ],
+	"consumes": {
+},
+
+	"plans": [
+	{
+    "unit": "t-10",
+    "requirements": [
+	{ "item": "silicon", "amount": 70},
+	{ "item": "lead", "amount": 50},
+	{ "item": "copper", "amount": 150},
+		],
+	"time": 900,
+		},
+	],
+	"unitCapModifier": 0,
+	"research": {
+	"parent": "ground-factory",
+	"visible": true,
+	"requirements": [
+  "copper/400",
+  ]
+  "objectives": [
+  {
+    "type": "capturedSector",
+    "preset": "groundZero",
+  },
+  ],
+},
+  "category": "units",
+	}
